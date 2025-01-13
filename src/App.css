@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+.tabs-container{
+    margin:3rem;
+}
+button{
+    background:grey;
+    padding:4px 7px;
+    margin-inline:3px;
+    color:white;
+    transition:ease-in-out all 0.2s;
+    
+}
+button:hover{
+    background:skyblue;
+}
+.tabs-content{
+    border:1px solid black;
+    width:296px;
+    height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-top:none;
+    margin-left:3px;
+}
+.active{
+    background:orange;
+}
+
+
+
